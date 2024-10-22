@@ -1,0 +1,70 @@
+.mainWrap{
+    display: grid;
+    grid-template-columns: 230px 1fr;
+    /* height: 100vh; */
+}
+
+.aside{
+    background: #3b3d4f;
+    padding: 16px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 95.6vh;
+}
+
+.asideInner{
+    flex:1;
+}
+
+.clientsList{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.client{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.userName{
+    margin-top: 5px;
+}
+
+.logo{
+   display: flex;
+   align-items: center;
+   gap: 5px;
+   padding-bottom: 10px;
+}
+
+.logoImage{
+    height: 100px;
+    border-radius: 50%;
+}
+
+.btn{
+    font-weight: bold;
+}
+
+.leaveBtn{
+    margin-top: 20px;
+}
+.leaveBtn{
+    background: red;
+}
+.leaveBtn:hover{
+    background: rgb(187, 78, 78);
+}
+
+
+.CodeMirror{
+    font-size: 20px;
+    line-height: 1.6;
+    padding-top: 20px;
+
+}
